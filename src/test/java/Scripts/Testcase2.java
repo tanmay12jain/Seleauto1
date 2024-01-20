@@ -22,6 +22,9 @@ public class Testcase2 extends BaseClass{
 		driverutilies.switchtabs(driver);
 		driverutilies.dropDrown(dl.getDropdown(),pdata.getPropertyfile("coursedd"));
 		
+		driverutilies.switchtabs(driver);
+		driverutilies.dropDrown(dl.getDropdown(),pdata.getPropertyfile("coursedd"));
+		
 		TestingPage t = new TestingPage(driver);
 		driverutilies.draganddrop(driver, t.getSelcourse(), t.getFacebook());
 		Point loc = t.getFacebook().getLocation();

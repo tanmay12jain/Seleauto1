@@ -31,6 +31,15 @@ public class Testcase3 extends BaseClass{
 		w.addtowishlistclick();
 		Thread.sleep(1000);
 		
+		driverutilies.switchtoframe(driver);
+		w.playiconnclick();
+		Thread.sleep(3000);
+		w.pauseiconclick();
+		driverutilies.switchback(driver);
+		Thread.sleep(1000);
+		w.addtowishlistclick();
+		Thread.sleep(1000);
+		
 		
 }
 }
