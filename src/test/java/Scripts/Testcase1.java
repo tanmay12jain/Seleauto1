@@ -24,5 +24,11 @@ public class Testcase1 extends BaseClass {
 		driverutilies.dobleClick(driver, a.getAddbtn());
 		a.addtocartbtn();
 		driverutilies.alertpopup(driver);
+		
+		driverutilies.dobleClick(driver, a.getAddbtn());
+		a.addtocartbtn();
+		driverutilies.alertpopup(driver);
+		
+
 	}
 }
